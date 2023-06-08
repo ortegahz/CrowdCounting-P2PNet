@@ -61,7 +61,7 @@ def main(args, debug=False):
     ])
 
     # set your image path here
-    img_path = "./vis/demo1.jpg"
+    img_path = "/media/manu/kingstoo/tmp/sucai/2023-05-29-18-03-18.jpg"
     # load the images
     img_raw = Image.open(img_path).convert('RGB')
     # round the size

@@ -25,7 +25,8 @@ model_urls = {
 
 
 model_paths = {
-    'vgg16_bn': '/apdcephfs/private_changanwang/checkpoints/vgg16_bn-6c64b313.pth',
+    # https://download.pytorch.org/models/vgg16_bn-6c64b313.pth
+    'vgg16_bn': '/home/manu/tmp/vgg16_bn-6c64b313.pth',
     'vgg16': '/apdcephfs/private_changanwang/checkpoints/vgg16-397923af.pth',
 
 }
